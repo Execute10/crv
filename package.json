@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-android-tools",
+  "version": "1.6.4",
+  "description": "Cordova Android Tools Plugin",
+  "cordova": {
+    "id": "cordova-plugin-android-tools",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Execute10/crv.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "android",
+    "vinoos",
+    "android-tools",
+    "tools"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Milad Mohammadi Rezagah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Execute10/crv/issues"
+  },
+  "homepage": "https://github.com/Execute10/crv#readme"
+}
