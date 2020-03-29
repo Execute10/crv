@@ -1105,17 +1105,16 @@ public class AndroidTools extends CordovaPlugin {
 					((CordovaActivity) mActivity).startActivity(launchIntent);
 					callbackContextKeepCallback = callbackContext;
 					callbackContextKeepCallback.success();
-				} catch(Exception) {
-				
-						try {
+				} catch(Exception e) {
+
+				 
+						
 							Intent intent = new Intent("android.intent.action.VIEW");
 							intent.setData(Uri.parse("market://details?id=" + packageName));
 							((CordovaActivity) mActivity).startActivity(intent);
 							callbackContextKeepCallback = callbackContext;
 							callbackContextKeepCallback.success();
-						} catch(Exception) {
-							Toast.makeText(mActivity, "مارکتی بر روی دستگاه یافت نشد", Toast.LENGTH_LONG).show();
-						}
+						 
 					 
 				
 				
